@@ -486,6 +486,8 @@ GameObject:
   m_Component:
   - component: {fileID: 710703146}
   - component: {fileID: 710703145}
+  - component: {fileID: 710703147}
+  - component: {fileID: 710703148}
   m_Layer: 0
   m_Name: ScriptTester
   m_TagString: Untagged
@@ -500,7 +502,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710703144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 655425a3129272f49a6c9f9b518c214a, type: 3}
   m_Name: 
@@ -520,6 +522,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &710703147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710703144}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1288a1e46228c44489c50c6bba15f6b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IfInteger: 2
+  IfFloat: 4.3
+--- !u!114 &710703148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710703144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4376ff3ed0836da44afd71b41c3a6972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1197590567
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +868,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 710703146}
-  - {fileID: 1873008578}
   - {fileID: 1197590570}
+  - {fileID: 1873008578}
+  - {fileID: 710703146}
