@@ -488,6 +488,8 @@ GameObject:
   - component: {fileID: 710703145}
   - component: {fileID: 710703147}
   - component: {fileID: 710703148}
+  - component: {fileID: 710703149}
+  - component: {fileID: 710703150}
   m_Layer: 0
   m_Name: ScriptTester
   m_TagString: Untagged
@@ -543,11 +545,38 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710703144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4376ff3ed0836da44afd71b41c3a6972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Username: 
+  EMail: 
+--- !u!114 &710703149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710703144}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b4376390e44664e805781ec176eb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &710703150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710703144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09402ac45764d8a4f8fa3df7ceb3e0a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &1197590567
 GameObject:
   m_ObjectHideFlags: 0
