@@ -86,7 +86,7 @@ public class CreatingSimpleObjects : MonoBehaviour
         if (Keyboard.current.rKey.isPressed)
         {
             //goSphere.transform.eulerAngles = new Vector3(0, 0, 45); //eulerAngles to use Vector 3 on rotations use the z axes to rotate an object within a 2D space
-            //used to tdeclare a roation for the object while .Rotate is used to rotate the angle 
+            //used to declare a roation for the object while .Rotate is used to rotate the angle 
             
             goSphere.transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime);
         }
